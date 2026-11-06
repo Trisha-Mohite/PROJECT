@@ -22,7 +22,7 @@ AI/ML
 - Coffee shop sales transactions — Kaggle `yiwaichang/coffee-shop-sales`
 - Custom scraped inventory from 10–15 NYC roasters (Devoción, Sey, Joe, Irving Farm, etc.)
 
-###NYC Tap Water Quality Decoder
+### 3. NYC Tap Water Quality Decoder
 
 **Core question:** *NYC water is "world-class" at the reservoir — but what's actually coming out of my tap given my building's pipes, age, and today's treatment conditions?*
 
