@@ -2,7 +2,7 @@
 AI/ML
 
 
-## Two Project Directions Under Consideration
+## Few Project Directions Under Consideration
 
 ### 1. Subway Crowd Truth — Auditing & Improving Google Maps Crowding Predictions for NYC Subway
 **Core question:** *How accurate are Google Maps' "Popular Times" crowding predictions for NYC subway stations, and can we build a better predictor using MTA turnstile ground truth?*
