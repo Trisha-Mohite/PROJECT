@@ -4,14 +4,22 @@ AI/ML
 
 ## Few Project Directions Under Consideration
 
-### 1. Subway Crowd Truth — Auditing & Improving Google Maps Crowding Predictions for NYC Subway
-**Core question:** *How accurate are Google Maps' "Popular Times" crowding predictions for NYC subway stations, and can we build a better predictor using MTA turnstile ground truth?*
+###1. Predicting NYC Subway Station Crowding Using Ridership, Weather, and Events
+
+Core research question:
+
+Can we predict how crowded an NYC subway station will be at a given time using historical passenger entry/exit data, weather conditions, train frequency, and nearby events?
 
 **Data sources:**
-- MTA turnstile entries/exits (4-hr intervals, 469 stations, 2017–present) — Kaggle `eddeng/nyc-subway-traffic-data-20172021`, `princehobby/metropolitan-transportation-authority-mta-datasets`
-- NOAA weather (hourly, per station area)
-- NYC events calendar (Yankees/Mets games, concerts, holidays)
-- Google Popular Times (scraped for audit; no public API)
+1. MTA ridership data – how many people enter and exit each station.
+
+2. MTA train service data – how frequently trains arrive and whether there are delays or disruptions.
+
+3. Weather data – rain, snow, temperature, humidity, etc.
+
+4. Events data – concerts, sports games, festivals, holidays, etc
+
+5. Station information – location, subway lines, borough, and station characteristics.
 
 
 ### 2. BeanThere — Personal Coffee Recommender for NYC Specialty Beans
