@@ -40,3 +40,16 @@ Can we predict how crowded an NYC subway station will be at a given time using h
 - 311 Water Quality Complaints (brown water, taste, odor, illness clusters) — NYC Open Data erm2-nwe9
 - PLUTO + Building Footprints (year built, renovation permits, pipe material proxy, height) — NYC Planning
 - DEP Harbor Survey (source water TOC, algae, turbidity driving treatment changes) — NYC Open Data 5u3k-3v9q
+
+### 4. Night safety of nyc streets
+
+▎ What makes a specific NYC block safe at night?
+
+---
+
+Data Sources :
+1. NYPD Complaint Historic (9s4h-37hy) — night crimes (8pm–5am), last 90 days, violent/robbery/larceny
+2. 311 Street Light Outages (erm2-nwe9) — working lights per block (invert outages)
+3. MTA GTFS (stops.txt) — subway + bus stops per block = foot traffic proxy
+
+(OSM street network + business opening_hours pulled live via osmnx)
